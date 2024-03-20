@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Truth Reading Survey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Simple Truth Reading Survey</h1>
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./family-reading.jpg"
+            class="d-block w-100"
+            alt="family reading"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./kids-reading.jpg"
+            class="d-block w-100"
+            alt="kids reading"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./love-to-learn.avif"
+            class="d-block w-100"
+            alt="woman studying in the library"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <form>
+  <label for="name"><strong>Name</strong></label><br>
+  <input type="text" id="name" name="name" placeholder="Your name here" width="50%"><br>
+  <label for="" id="donate-question"><strong>Do you have any books you would like to donate to the Learning Center/Library?</strong></label><br>
+  <input type="radio" id="yes" name="yes" value="yes">
+  <label for="yes">YES</label><br>
+  <input type="radio" id="no" name="no" value="no">
+  <label for="yes">NO</label><br>
+  <label for="" id="reading-question"><strong>Do you like to read?</strong></label><br>
+  <input type="radio" id="yes2" name="yes2" value="yes2">
+  <label for="yes2">YES</label><br>
+  <input type="radio" id="no2" name="no2" value="no2">
+  <label for="yes2">NO</label><br>
+  <label for="" id="often-read"><strong>If so, how often do you read?</strong></label><br>
+  <input type="radio" id="daily" name="daily" value="daily">
+  <label for="daily">DAILY</label><br>
+  <input type="radio" id="weekly" name="weekly" value="weekly">
+  <label for="weekly">MORE THAN ONCE A WEEK</label><br>
+  <input type="radio" id="monthly" name="monthly" value="monthly">
+  <label for="monthly">MORE THAN ONCE A MONTH</label><br>
+  <label for="" id="book-purchase">Where do you get your books? <span><em>Check all that apply</em></span></label><br>
+  <input type="checkbox" id="online" name="online" value="onlline">
+  <label for="online">Online</label><br>
+  <input type="checkbox" id="bookstore" name="bookstore" value="bookstore">
+  <label for="bookstore">Bookstore</label><br>
+  <input type="checkbox" id="thrift-store" name="thrift-store" value="thrift-store">
+  <label for="thrift-store">Thrift Store</label><br>
+  <input type="checkbox" id="library" name="library" value="library">
+  <label for="library">Library</label><br>
+  <label for="type-books">What types of books do you like to read?</label><br>
+  <textarea name="" id="" cols="30" rows="5"></textarea><br>
+  <input type="submit">
+
+
+</form>
+    
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
