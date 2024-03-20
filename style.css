@@ -21,4 +21,6 @@ form {
   margin: 0 auto;
 }
 
-
+#name, #no, #no2, #monthly, #library, #area {
+  margin-bottom: 20px;
+}
